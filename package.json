@@ -1,6 +1,6 @@
 {
-  "homepage":"https://moEssamDev.github.io/bookStore_App/",
-  "name": "frontend",
+  "homepage": "https://moEssamDev.github.io/bookStore_App/",
+  "name": "bookstore_app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,33 +9,26 @@
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
-    "axios": "^1.7.4",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-hook-form": "^7.52.2",
-    "react-router-dom": "^6.26.1",
-    "react-slick": "^0.30.2",
-    "slick-carousel": "^1.8.1"
+    "firebase": "^10.11.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-firebase-hooks": "^5.1.1",
+    "react-router-dom": "^6.23.0",
+    "react-toastify": "^10.0.5"
   },
   "devDependencies": {
-    "@eslint/js": "^9.9.0",
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
-    "@vitejs/plugin-react": "^4.3.1",
-    "autoprefixer": "^10.4.20",
-    "daisyui": "^4.12.10",
-    "eslint": "^9.9.0",
-    "eslint-plugin-react": "^7.35.0",
-    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
-    "eslint-plugin-react-refresh": "^0.4.9",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
     "gh-pages": "^6.1.1",
-    "globals": "^15.9.0",
-    "postcss": "^8.4.41",
-    "tailwindcss": "^3.4.10",
     "vite": "^5.4.1"
   }
 }
